@@ -1,0 +1,2 @@
+Storage account name: secstorageacct26025
+Storage account key: pVBLfQrxDJBCkmeygXCbuX8Y+SAjScmcDmmeDFWi5j9yY74fybRh81IFfPBaJx7U6B8c8YbccVbW9mLG0pDK7g==
