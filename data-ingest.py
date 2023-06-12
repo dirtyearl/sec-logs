@@ -38,7 +38,7 @@ def upload_file(container_name, local_file_name, upload_file_path,
         print(ex)
 
 if __name__ == "__main__":
-    os.environ['AZURE_STORAGE_CONNECTION_STRING'] = "DefaultEndpointsProtocol=https;AccountName=dataingest002581;AccountKey=Zuz8Bx41arXKz8vSzuB+d5qcDoL40bqpu5VqTASDTUtpV+cXC6QQHe8JaYTJZ2WLh07Yfrcy/wKi6SXR+DPE0g==;EndpointSuffix=core.windows.net"
+    os.environ['AZURE_STORAGE_CONNECTION_STRING'] = "DefaultEndpointsProtocol=https;AccountName=<ACCT_NAME>;AccountKey=<ACCT_KEY>;EndpointSuffix=core.windows.net"
     url = f'https://www.sec.gov/files/EDGAR_LogFileData_thru_Jun2017.html'
     f = requests.get(url).text.split('\r\n')
     lst = [i.strip() for i in f][8:-2]
